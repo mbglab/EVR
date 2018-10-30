@@ -110,3 +110,6 @@ When using OpenCL to optimize the structure, the program will automatically dete
 export PYOPENCL_CTX='0'; python evr -i [Input file] -o [Output file] --OpenCL [...]
 ```
 This command will make the program use the first platform detected.
+
+Author: Kangjian-Hua
+E-mail: huakangjian1995@gmail.com
