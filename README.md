@@ -2,6 +2,8 @@
 EVR is a chromosome 3D structure reconstruction tool using an Error-Vector Resultant algorithm based on DNA interaction data. With normalized or unnormalized IF matrix as input, the program generate a chromosome 3D structure output in a .pdb file. 
 Using Cython and OpenCL, the program can run on CPUs/GPUS/APUs and thus usually faster than similar tools. 
 
+The C++ version of evr is at https://github.com/HakimHua/EVR_CPP.
+
 ## Installation
 Requirement:
 * python (2.7 or 3.x)
