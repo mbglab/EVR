@@ -5,6 +5,7 @@ __kernel void evr_cyc(__global const float *positions,
                   const int bin_num,
                   __global float *trans)
 {
+    //Calculate the structure model of the annular chromosome.
     int gid = get_global_id(0);
 
     float x = positions[gid * 3];
@@ -64,6 +65,7 @@ __kernel void evr_lin(__global const float *positions,
                   const int bin_num,
                   __global float *trans)
 {
+    //Calculate the structure model of the annular chromosome.
     int gid = get_global_id(0);
 
     float x = positions[gid * 3];
