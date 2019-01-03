@@ -1,8 +1,13 @@
+'''
+This section contains the basic data structure of the program.
+Chrmosome Class: Defines the coordinates of chromosomes and some basic transformations.
+Matrix Class: Defining the interaction matrix and the distance matrix and some basic processing functions.
+'''
+
 import numpy as np
 from scipy.ndimage import gaussian_filter
 
 from IO import LoadMatrix
-
 
 class Chromosome:
     '''The chromosome object contains the coordinates of each bin of the chromosome structure.'''
