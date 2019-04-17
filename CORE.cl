@@ -53,9 +53,9 @@ __kernel void evr_cyc(__global const float *positions,
         ervec += divec;
     }
     ervec /= bin_num;
-    trans[gid * 3] = ervec.x;
-    trans[gid * 3 + 1] = ervec.y;
-    trans[gid * 3 + 2] = ervec.z;
+    trans[gid * 3] += ervec.x;
+    trans[gid * 3 + 1] += ervec.y;
+    trans[gid * 3 + 2] += ervec.z;
 }
 
 __kernel void evr_lin(__global const float *positions, 
@@ -113,7 +113,7 @@ __kernel void evr_lin(__global const float *positions,
         ervec += divec;
     }
     ervec /= bin_num;
-    trans[gid * 3] = ervec.x;
-    trans[gid * 3 + 1] = ervec.y;
-    trans[gid * 3 + 2] = ervec.z;
+    trans[gid * 3] += ervec.x;
+    trans[gid * 3 + 1] += ervec.y;
+    trans[gid * 3 + 2] += ervec.z;
 }
