@@ -72,7 +72,7 @@ def solver_opencl(chromosome, matrix, min_dis, max_dis, iter_num = "auto", ctype
 
     matrix_buf = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf = dis_matrix)
 
-    trans_buf = cl.Buffer(context, mf.WRITE_ONLY, coor.nbytes)
+    trans_buf = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf = trans)
 
     src = LoadCL("CORE.cl")
 
@@ -107,7 +107,7 @@ def solver_opencl(chromosome, matrix, min_dis, max_dis, iter_num = "auto", ctype
         coor_buf = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf = coor)
 
         trans_buf.release()
-        trans_buf = cl.Buffer(context, mf.WRITE_ONLY, coor.nbytes)
+        trans_buf = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf = trans)
     
     coor_buf.release()
     matrix_buf.release()
