@@ -118,9 +118,11 @@ Publication:
 EVR: Reconstruction of Bacterial Chromosome 3D Structure Models Using Error-Vector Resultant Algorithm
 
 Kang-Jian Hua and Bin-Guang Ma*
+
 Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, State Key Laboratory of Agricultural Microbiology, Huazhong Agricultural University, Wuhan 430070, China
 
 \* Correspondence: mbg@mail.hzau.edu.cn
+
 E-mail: mbg@mail.hzau.edu.cn  (Ma BG), Tel & Fax: 86 27 87280877
 
 E-mail: huakangjian@foxmail.com (Hua KJ)
