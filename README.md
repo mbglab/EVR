@@ -113,15 +113,11 @@ export PYOPENCL_CTX='0'; python evr -i [Input file] -o [Output file] --OpenCL [.
 This command will make the program use the first platform detected.
 
 
+Web server: http://211.69.141.171/EVR/
+
 Publication:
 
-EVR: Reconstruction of Bacterial Chromosome 3D Structure Models Using Error-Vector Resultant Algorithm
-
-Kang-Jian Hua and Bin-Guang Ma*
-
-Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, State Key Laboratory of Agricultural Microbiology, Huazhong Agricultural University, Wuhan 430070, China
-
-\* Correspondence: mbg@mail.hzau.edu.cn
+Kang-Jian Hua and Bin-Guang Ma*, EVR: Reconstruction of Bacterial Chromosome 3D Structure Models Using Error-Vector Resultant Algorithm, BMC Genomics.2019;20:738. https://doi.org/10.1186/s12864-019-6096-0
 
 E-mail: mbg@mail.hzau.edu.cn  (Ma BG), Tel & Fax: 86 27 87280877
 
