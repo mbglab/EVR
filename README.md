@@ -113,7 +113,7 @@ export PYOPENCL_CTX='0'; python evr -i [Input file] -o [Output file] --OpenCL [.
 This command will make the program use the first platform detected.
 
 
-Web server: http://211.69.141.171/EVR/
+Web server: http://hbklab.hzau.edu.cn/EVR/
 
 Publication:
 
